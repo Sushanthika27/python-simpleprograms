@@ -1,0 +1,18 @@
+ B=int(input("Enter Your Credit Balance"))
+ print("1.deposit")
+ print("2.withdraw")
+ T=int(input("Enter Transation Type"))
+if T==1:
+  D=int(input("Enter deposit amount"))
+  if D>=1000:
+   print("Your Balance is",B+D)
+  if D<1000:
+   print("Cannot Deposit")
+ elif T==2:
+  W=int(input("Enter withdrawal amount"))
+  if W>=1000 and W<=B:
+   print("Your Balance is ",B-W)
+  else:
+   print("Cannot be withdrawed")
+ else:
+  print("Enter Correct Choice")
