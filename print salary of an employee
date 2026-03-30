@@ -1,0 +1,6 @@
+  S=int(input("Enter the salary of an employee"))
+  L=int(input("Enter the number of leave"))
+  if L<=2:
+      print("Your salary is ",S)
+  else:
+      print("Your salary is ",(S-(L*500))+1000)
