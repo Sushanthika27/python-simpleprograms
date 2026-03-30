@@ -1,0 +1,16 @@
+print("1.warm")
+print("2.cold")
+T=int(input("Enter the Temperature"))
+print("3.dry")
+print("4.humid")
+H=int(input("Enter humidity"))
+if T==1 and H==3:
+    print("Play Basket ball")
+elif T==1 and H==4:
+    print("Play Tennis")
+elif T==2 and H==3:
+    print("Play cricket")
+elif T==2 and H==4:
+    print("Swim")
+else:
+    print("Enter correct choice")
